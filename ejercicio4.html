@@ -3,11 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejercico 4</title>
+    <title>Buscador de estudiantes</title>
     <link rel="stylesheet" href="CSS/styles.css">
 </head>
 <body>
     
+    <h1>Buscador de Estudiantes</h1>
+
+    <!--buscar estudiante-->
+    <form action="" id="buscador">
+        <div>
+            <label for="estudiante-e"><strong>Estudiante: </strong></label>
+            <br>
+            <br>
+            <input type="text" id="nombre-e" placeholder="Ej: Maria Alvarez">
+            <button type="button" onclick="buscarEstudiante()">Buscar</button>
+        </div>
+    </form>
+
+    <form action="">
+        <h2>Estudiante Registrado</h2>
+        <div id="mensajeBusqueda"></div>
+    </form>
+
     <script src="JS/ejercico4.js"></script>
 </body>
 </html>
